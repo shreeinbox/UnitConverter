@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+}
+#container{
+    width: 550px;
+    height: 720px;
+    background-color: #1F2937;
+    text-align: center;   
+    margin:auto;
+}
+#main{
+    width:550px;
+    height:285px;
+    background-color: #6943FF;
+}
+#main h2{
+    font-family: "Inter", serif;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    padding-top : 20px;
+}
+#userInput{
+    display: block;
+    width: 100px;
+    height:83px;
+    margin: 20px auto;
+    padding:20px;
+    box-sizing: border-box;
+    background:none;
+    border: 1px solid #B295FF;
+    border-radius: 5px ;
+    outline:none;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+#userInput :focus{
+    border: none;
+    outline:none;
+}
+#btnConvert{
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px 20px;
+}
+.convStyle{
+    background-color: #273549;
+    width:500px;
+    height:100px;
+    margin:30px auto;
+    border-radius: 5px 0px 0px;
+    
+}
+.convStyle h3{
+    padding-top: 15px;
+    color: #CCC1FF;
+    font-family: "Inter", serif;
+}
+.convStyle p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+
+}
